@@ -3,9 +3,14 @@ public abstract class DebugBoat
    String boatType = new String();
    int passengers;
    String power = new String();
+
    public DebugBoat(String bt)
    {
+
+
       boatType = bt;
+
+
    }
    // override equals() method to satisfy
    // requirements of Debug Exercise 3.
